@@ -105,12 +105,12 @@ function Home() {
             }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" tick={{ fill: 'white' }}/>
-                <YAxis tick={{ fill: 'white' }}/>
-                <Tooltip contentStyle={{ color: 'white' }} itemStyle={{ color: 'white' }}/>
-                <Legend wrapperStyle={{ color: 'white' }}/>
-                <Bar dataKey="pv" fill="#ffcccc" />
-                <Bar dataKey="uv" fill="#82ca9d" />
+                <XAxis dataKey="name" tick={{ fill: 'black' }}/>
+                <YAxis tick={{ fill: 'black' }}/>
+                <Tooltip contentStyle={{ color: 'black' }} itemStyle={{ color: 'black' }}/>
+                <Legend wrapperStyle={{ color: 'black' }}/>
+                <Bar dataKey="pv" fill="#000066" />
+                <Bar dataKey="uv" fill="#800080" />
                 </BarChart>
             </ResponsiveContainer>
 
@@ -127,12 +127,12 @@ function Home() {
                 }}
                 >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" tick={{ fill: 'white' }}/>
-                <YAxis tick={{ fill: 'white' }}/>
-                <Tooltip contentStyle={{ color: 'white' }} itemStyle={{ color: 'white' }}/>
-                <Legend wrapperStyle={{ color: 'white' }}/>
-                <Line type="monotone" dataKey="pv" stroke="#ffcccc" activeDot={{ r: 8 }} />
-                <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                <XAxis dataKey="name" tick={{ fill: 'black' }}/>
+                <YAxis tick={{ fill: 'black' }}/>
+                <Tooltip contentStyle={{ color: 'black' }} itemStyle={{ color: 'black' }}/>
+                <Legend wrapperStyle={{ color: 'black' }}/>
+                <Line type="monotone" dataKey="pv" stroke="#000066" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="uv" stroke="#800080" />
                 </LineChart>
             </ResponsiveContainer>
 
